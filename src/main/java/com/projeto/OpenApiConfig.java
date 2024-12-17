@@ -10,8 +10,8 @@ public class OpenApiConfig {
     @Bean
     public GroupedOpenApi booksApi() {
         return GroupedOpenApi.builder()
-                .group("Book")
-                .pathsToMatch("/Book/**")
+                .group("projeto")
+                .pathsToMatch("/projeto/**")
                 .build();
     }
 }
